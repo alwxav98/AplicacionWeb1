@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N9g35Sdc9ctQEhTVhY9piMaFgkKnjxHbOP2IuL4InddI3TaQ/Ha+2yVOKpHJhURpKuHQM1kXj7hf3t6rYb4DDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tanya\\OneDrive\\Escritorio\\UCE\\Octavo\\Distribuida\\AplicacionWeb1\\AplicacionWeb1\\AplicacionWeb1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}
