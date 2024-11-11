@@ -20,4 +20,8 @@ RUN dotnet publish "./AplicacionWeb1.csproj" -c $BUILD_CONFIGURATION -o /app/pub
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+COPY AplicacionWeb1/wwwroot/css /app/wwwroot/css
+COPY AplicacionWeb1/wwwroot/images /app/wwwroot/Img
+
 ENTRYPOINT ["dotnet", "AplicacionWeb1.dll"]
