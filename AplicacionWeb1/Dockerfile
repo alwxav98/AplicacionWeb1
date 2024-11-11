@@ -21,7 +21,7 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-COPY AplicacionWeb1/wwwroot/css /app/wwwroot/css
-COPY AplicacionWeb1/wwwroot/images /app/wwwroot/Img
+#COPY AplicacionWeb1/wwwroot/css /app/wwwroot/css
+#COPY AplicacionWeb1/wwwroot/images /app/wwwroot/Img
 
 ENTRYPOINT ["dotnet", "AplicacionWeb1.dll"]
