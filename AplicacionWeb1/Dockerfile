@@ -11,11 +11,11 @@ COPY ["AplicacionWeb1/AplicacionWeb1.csproj", "AplicacionWeb1/"]
 RUN dotnet restore "./AplicacionWeb1/./AplicacionWeb1.csproj"
 COPY . .
 WORKDIR "/src/AplicacionWeb1"
-RUN dotnet build "./AplicacionWeb1.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build /AplicacionWeb1.csproj -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./AplicacionWeb1.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish ./AplicacionWeb1.csproj -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
