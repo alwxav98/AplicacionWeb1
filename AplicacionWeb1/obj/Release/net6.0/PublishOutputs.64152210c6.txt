@@ -1,0 +1,7 @@
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\AplicacionWeb1.exe
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\appsettings.Development.json
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\appsettings.json
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\AplicacionWeb1.dll
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\AplicacionWeb1.deps.json
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\AplicacionWeb1.runtimeconfig.json
+C:\Users\tanya\OneDrive\Escritorio\UCE\Octavo\Distribuida\AplicacionWeb1\out\AplicacionWeb1.pdb

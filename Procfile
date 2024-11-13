@@ -1,1 +1,1 @@
-web: dotnet AplicacionWeb1.dll
+web: dotnet out/AplicacionWeb1.dll
