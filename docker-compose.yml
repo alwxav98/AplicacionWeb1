@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  aplicacionweb1:
-    image: ${DOCKER_REGISTRY-}aplicacionweb1
-    build:
-      context: .
-      dockerfile: AplicacionWeb1/Dockerfile
